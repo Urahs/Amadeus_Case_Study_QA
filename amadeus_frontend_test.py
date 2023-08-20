@@ -14,7 +14,7 @@ options = webdriver.ChromeOptions()
 options.add_argument("start-maximized")
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Chrome(options=options)
-driver.get("https://flights-app.pages.dev/")  # Replace with the actual URL
+driver.get("https://flights-app.pages.dev/")
 
 
 def test_same_input():
